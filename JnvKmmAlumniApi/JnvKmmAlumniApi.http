@@ -1,0 +1,6 @@
+@JnvKmmAlumniApi_HostAddress = http://localhost:5097
+
+GET {{JnvKmmAlumniApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
