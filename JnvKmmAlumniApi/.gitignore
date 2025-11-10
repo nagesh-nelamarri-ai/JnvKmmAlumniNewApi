@@ -1,0 +1,65 @@
+## ASP.NET Core Web API + Visual Studio .gitignore
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.assets.json
+project.nuget.cache
+*.nuget.dgspec.json
+*.nuget.g.props
+*.nuget.g.targets
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.tmp
+*.bak
+
+# Publish output
+publish/
+app.publish/
+
+# Database / Dapper
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+*.sqlite
+
+# Environment files
+.env
+.env.*
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
